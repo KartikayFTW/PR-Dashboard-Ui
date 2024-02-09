@@ -6,8 +6,9 @@ import SignIn from "pages/SignIn";
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/signin" element={<SignIn />} />
-      <Route path="/signup" element={<SignUp />} />
+      <Route path="/sign_in" element={<SignIn />} />
+      <Route path="/" element={<SignIn />} />
+      <Route path="/sign_up" element={<SignUp />} />
     </Routes>
   );
 };
